@@ -11,11 +11,13 @@ TODO: Create a new private method in the Beer class called beerInfo which return
 Make sure that you use the variables and not just this text line.
 TODO: Print this method on the screen on a new line.
 USE TYPEHINTING EVERYWHERE!
-*/
+
+
+Exo en cours...*/
 class Beverage {
-    public string $color;
-    public float $price;
-    public string $temperature;
+    private string $color;
+    private float $price;
+    private string $temperature;
 
     public function __construct(string $color, float $price, string $temperature="cold"){
         $this->color=$color;
